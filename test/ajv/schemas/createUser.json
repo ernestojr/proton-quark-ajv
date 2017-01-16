@@ -1,0 +1,18 @@
+{
+  "properties": {
+    "name": { "type": "string" },
+    "email": { "type": "string" },
+    "address": { "type": "string" },
+    "phone": { "type": "string" },
+    "age": { "type": "integer" },
+    "status": { "type": "string" }
+  },
+  "required": [
+    "name",
+    "email",
+    "address",
+    "phone",
+    "age",
+    "status"
+  ]
+}

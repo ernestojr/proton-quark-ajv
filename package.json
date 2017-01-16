@@ -1,0 +1,37 @@
+{
+  "name": "proton-quark-ajv",
+  "version": "1.1.0",
+  "description": "Middleware for compiler schemas of AJV and use them with proton microframework",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "./node_modules/mocha-co/bin/mocha -R spec ./test/quark.js"
+  },
+  "author": "Ernesto Rojas",
+  "license": "MIT",
+  "devDependencies": {
+    "mocha-co": "1.17.1-co.1"
+  },
+  "dependencies": {
+    "ajv": "^4.10.4",
+    "proton-quark": "^1.0.0",
+    "require-all": "^2.0.0"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ernestojr/proton-quark-ajv"
+  },
+  "keywords": [
+    "Controllers",
+    "Proton",
+    "Microframework",
+    "Quark"
+  ],
+  "bugs": {
+    "url": "https://github.com/ernestojr/proton-quark-ajv/issues"
+  },
+  "homepage": ""
+}
